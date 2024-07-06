@@ -1,0 +1,107 @@
+expr([3,*,5,+,2,/,6], X).
+
+PUSH(3)
+PUSH(5)
+y=POP(); x=POP(); PUSH(x MUL y)
+PUSH(2)
+PUSH(6)
+y=POP(); x=POP(); PUSH(x DIV y)
+y=POP(); x=POP(); PUSH(x ADD y)
+X = []
+==================================
+expr([7,+,8,/,4,-,2], X).
+
+PUSH(7)
+PUSH(8)
+PUSH(4)
+y=POP(); x=POP(); PUSH(x DIV y)
+PUSH(2)
+y=POP(); x=POP(); PUSH(x SUB y)
+y=POP(); x=POP(); PUSH(x ADD y)
+X = []
+=================================
+expr(['(',3,+,6,')',/,'(',6,*,2,')'], X).
+
+PUSH(3)
+PUSH(6)
+y=POP(); x=POP(); PUSH(x ADD y)
+PUSH(6)
+PUSH(2)
+y=POP(); x=POP(); PUSH(x MUL y)
+y=POP(); x=POP(); PUSH(x DIV y)
+X = []
+=================================
+expr([6,+,1,+,2,+,9], X).
+
+PUSH(6)
+PUSH(1)
+PUSH(2)
+PUSH(9)
+y=POP(); x=POP(); PUSH(x ADD y)
+y=POP(); x=POP(); PUSH(x ADD y)
+y=POP(); x=POP(); PUSH(x ADD y)
+X = []
+===============================
+expr(['(',2,/,5,')',-,6,+,1], X).
+
+PUSH(2)
+PUSH(5)
+y=POP(); x=POP(); PUSH(x DIV y)
+PUSH(6)
+PUSH(1)
+y=POP(); x=POP(); PUSH(x ADD y)
+y=POP(); x=POP(); PUSH(x SUB y)
+X = []
+=================================
+expr([7,/,'(',2,+,2,')',-,4], X).
+
+PUSH(7)
+PUSH(2)
+PUSH(2)
+y=POP(); x=POP(); PUSH(x ADD y)
+y=POP(); x=POP(); PUSH(x DIV y)
+PUSH(4)
+y=POP(); x=POP(); PUSH(x SUB y)
+X = []
+=================================
+expr(['(',4,-,6,')',/,'(',1,+,1,')'], X).
+
+PUSH(4)
+PUSH(6)
+y=POP(); x=POP(); PUSH(x SUB y)
+PUSH(1)
+PUSH(1)
+y=POP(); x=POP(); PUSH(x ADD y)
+y=POP(); x=POP(); PUSH(x DIV y)
+X = []
+===================================
+expr([6,+,5,-,'(',2,+,2,')'], X).
+
+PUSH(6)
+PUSH(5)
+PUSH(2)
+PUSH(2)
+y=POP(); x=POP(); PUSH(x ADD y)
+y=POP(); x=POP(); PUSH(x SUB y)
+y=POP(); x=POP(); PUSH(x ADD y)
+X = []
+==================================
+expr([2,/,'(',2,*,1,')',+,6], X).
+
+PUSH(2)
+PUSH(2)
+PUSH(1)
+y=POP(); x=POP(); PUSH(x MUL y)
+y=POP(); x=POP(); PUSH(x DIV y)
+PUSH(6)
+y=POP(); x=POP(); PUSH(x ADD y)
+X = []
+==================================
+PUSH(6)
+PUSH(2)
+PUSH(3)
+y=POP(); x=POP(); PUSH(x ADD y)
+y=POP(); x=POP(); PUSH(x SUB y)
+PUSH(4)
+y=POP(); x=POP(); PUSH(x MUL y)
+X = []

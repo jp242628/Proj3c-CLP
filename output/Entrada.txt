@@ -1,0 +1,71 @@
+PUSH(3)                     // Empilha o valor 3 na pilha
+PUSH(5)                     // Empilha o valor 5 na pilha
+y=POP(); x=POP(); PUSH(x * y) // Desempilha dois valores, multiplica e empilha o resultado
+PUSH(2)                     // Empilha o valor 2 na pilha
+PUSH(6)                     // Empilha o valor 6 na pilha
+y=POP(); x=POP(); PUSH(x / y) // Desempilha dois valores, divide e empilha o resultado
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+PUSH(7)                     // Empilha o valor 7 na pilha
+PUSH(8)                     // Empilha o valor 8 na pilha
+PUSH(4)                     // Empilha o valor 4 na pilha
+y=POP(); x=POP(); PUSH(x / y) // Desempilha dois valores, divide e empilha o resultado
+PUSH(2)                     // Empilha o valor 2 na pilha
+y=POP(); x=POP(); PUSH(x - y) // Desempilha dois valores, subtrai e empilha o resultado
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+PUSH(3)                     // Empilha o valor 3 na pilha
+PUSH(6)                     // Empilha o valor 6 na pilha
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+PUSH(6)                     // Empilha o valor 6 na pilha
+PUSH(2)                     // Empilha o valor 2 na pilha
+y=POP(); x=POP(); PUSH(x * y) // Desempilha dois valores, multiplica e empilha o resultado
+y=POP(); x=POP(); PUSH(x / y) // Desempilha dois valores, divide e empilha o resultado
+PUSH(6)                     // Empilha o valor 6 na pilha
+PUSH(1)                     // Empilha o valor 1 na pilha
+PUSH(2)                     // Empilha o valor 2 na pilha
+PUSH(9)                     // Empilha o valor 9 na pilha
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+PUSH(2)                     // Empilha o valor 2 na pilha
+PUSH(5)                     // Empilha o valor 5 na pilha
+y=POP(); x=POP(); PUSH(x / y) // Desempilha dois valores, divide e empilha o resultado
+PUSH(6)                     // Empilha o valor 6 na pilha
+PUSH(1)                     // Empilha o valor 1 na pilha
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+y=POP(); x=POP(); PUSH(x - y) // Desempilha dois valores, subtrai e empilha o resultado
+PUSH(7)                     // Empilha o valor 7 na pilha
+PUSH(2)                     // Empilha o valor 2 na pilha
+PUSH(2)                     // Empilha o valor 2 na pilha
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+y=POP(); x=POP(); PUSH(x / y) // Desempilha dois valores, divide e empilha o resultado
+PUSH(4)                     // Empilha o valor 4 na pilha
+y=POP(); x=POP(); PUSH(x - y) // Desempilha dois valores, subtrai e empilha o resultado
+PUSH(4)                     // Empilha o valor 4 na pilha
+PUSH(6)                     // Empilha o valor 6 na pilha
+y=POP(); x=POP(); PUSH(x - y) // Desempilha dois valores, subtrai e empilha o resultado
+PUSH(1)                     // Empilha o valor 1 na pilha
+PUSH(1)                     // Empilha o valor 1 na pilha
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+y=POP(); x=POP(); PUSH(x / y) // Desempilha dois valores, divide e empilha o resultado
+PUSH(6)                     // Empilha o valor 6 na pilha
+PUSH(5)                     // Empilha o valor 5 na pilha
+PUSH(2)                     // Empilha o valor 2 na pilha
+PUSH(2)                     // Empilha o valor 2 na pilha
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+y=POP(); x=POP(); PUSH(x - y) // Desempilha dois valores, subtrai e empilha o resultado
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+PUSH(2)                     // Empilha o valor 2 na pilha
+PUSH(2)                     // Empilha o valor 2 na pilha
+PUSH(1)                     // Empilha o valor 1 na pilha
+y=POP(); x=POP(); PUSH(x * y) // Desempilha dois valores, multiplica e empilha o resultado
+y=POP(); x=POP(); PUSH(x / y) // Desempilha dois valores, divide e empilha o resultado
+PUSH(6)                     // Empilha o valor 6 na pilha
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+PUSH(6)                     // Empilha o valor 6 na pilha
+PUSH(2)                     // Empilha o valor 2 na pilha
+PUSH(3)                     // Empilha o valor 3 na pilha
+y=POP(); x=POP(); PUSH(x + y) // Desempilha dois valores, soma e empilha o resultado
+y=POP(); x=POP(); PUSH(x - y) // Desempilha dois valores, subtrai e empilha o resultado
+PUSH(4)                     // Empilha o valor 4 na pilha
+y=POP(); x=POP(); PUSH(x * y) // Desempilha dois valores, multiplica e empilha o resultado
+
